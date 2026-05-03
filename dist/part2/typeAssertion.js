@@ -12,7 +12,8 @@ const kgToGMConverter = (input) => {
     }
 };
 const result1 = kgToGMConverter(10);
-const result2 = kgToGMConverter("10kg");
+const result2 = kgToGMConverter("10 kg");
+// In this case, as number or as string is a type assertion. It indicates that I am explicitly specifying the expected type of the value.
 console.log(result1);
 console.log(result2);
 //# sourceMappingURL=typeAssertion.js.map
