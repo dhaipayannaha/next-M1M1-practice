@@ -34,11 +34,11 @@ type height = AreaOfNum['height'];
 // }
 
 
-type AreaOfString<T> = {
-    [key in keyof T] : T[key];
-}
+// type AreaOfString<T> = {
+//     [key in keyof T] : T[key];
+// }
 
-const area1: Area{ height: string, width: number } = {
-    height: "1",
-    width: 2,
-};
+// const area1: Area{ height: string, width: number } = {
+//     height: "1",
+//     width: 2,
+// };

@@ -58,3 +58,5 @@ const product = {
 
 
 const result1 = getPropertyFromObj(product, "brand")
+
+
